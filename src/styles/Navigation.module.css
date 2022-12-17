@@ -1,0 +1,26 @@
+#nav {
+  width: 100vw;
+  min-height: 70px;
+  padding: 0px 10px;
+  background-image: linear-gradient(102.4deg, rgba(253, 189, 85, 1) 7.8%, rgba(249, 131, 255, 1) 100.3%);
+}
+
+#nav div {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+
+#nav div h1 {
+  color: white
+}
+
+.elevation {
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  box-shadow: 1px 7px 13px -5px rgba(0, 0, 0, 0.37);
+  -webkit-box-shadow: 1px 7px 13px -5px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: 1px 7px 13px -5px rgba(0, 0, 0, 0.37);
+}
