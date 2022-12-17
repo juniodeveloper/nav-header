@@ -11,7 +11,7 @@ const Navigation = () => {
   function onScroll() {
 
     const header = document.getElementById(styles.nav)
-    if (document.documentElement.scrollTop > 20 || document.body.scrollTop > 20) {
+    if (document.documentElement.scrollTop > 5 || document.body.scrollTop > 5) {
       header.classList.add(styles.elevation)
     } else {
       header.classList.remove(styles.elevation)
